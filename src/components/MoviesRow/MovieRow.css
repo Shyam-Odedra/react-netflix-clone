@@ -1,0 +1,36 @@
+.movieRow{
+    overflow: hidden;
+    /* margin-left : 60px; */
+}
+
+.title {
+    font-weight: 700;
+}
+
+.posterRow {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 15px 0;
+}
+
+.posterRow::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    object-fit: contain;
+    width: 100%;
+    /* max-height: 160px; */
+    margin-right: 10px;
+    transition: all .2s ease-in-out;
+    border-radius: 3px;
+}
+
+.poster:hover {
+    transform: scale(1.1);
+}
+
+.longPosters {
+    /* max-height: 250px; */
+}

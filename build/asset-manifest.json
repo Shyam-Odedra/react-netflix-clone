@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.80f0f5ef.css",
+    "main.js": "/static/js/main.f9865ab6.js",
+    "static/js/787.440c4889.chunk.js": "/static/js/787.440c4889.chunk.js",
+    "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.9aa03f9d52866893add5.ttf",
+    "static/media/netflix_logo.png": "/static/media/netflix_logo.f4070143e1f521da82a1.png",
+    "index.html": "/index.html",
+    "main.80f0f5ef.css.map": "/static/css/main.80f0f5ef.css.map",
+    "main.f9865ab6.js.map": "/static/js/main.f9865ab6.js.map",
+    "787.440c4889.chunk.js.map": "/static/js/787.440c4889.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80f0f5ef.css",
+    "static/js/main.f9865ab6.js"
+  ]
+}
