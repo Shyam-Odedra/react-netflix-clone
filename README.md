@@ -2,6 +2,8 @@
 
 A modern Netflix clone built with React.js that replicates the core features and UI of Netflix, including movie trailers, dynamic content rows, and a responsive design.
 
+## [Live Demo](https://react-netflix-clone-hdd2.onrender.com/)
+
 ## 🚀 Features
 
 - **Dynamic Header/Banner**
