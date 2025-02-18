@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# Netflix Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Netflix clone built with React.js that replicates the core features and UI of Netflix, including movie trailers, dynamic content rows, and a responsive design.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Dynamic Header/Banner**
+  - Random trending movie/show banner on every refresh
+  - Play trailer functionality
+  - Movie/Show description
+  - Smooth background image loading
 
-### `npm start`
+- **Responsive Navigation**
+  - Netflix logo
+  - Navigation links (Home, Trending, Movies, TV Shows, etc.)
+  - Profile section
+  - Dynamic background color change on scroll
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Content Rows**
+  - Multiple categories of content
+  - Horizontal scrollable rows
+  - Different layout sizes for featured content
+  - Trailer popup on click
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Categories Include:**
+  - Trending Movies
+  - Trending TV Shows
+  - Action Movies
+  - Comedy Movies
+  - Drama Movies
+  - Science Fiction Movies
+  - Romance Movies
+  - Thriller Movies
+  - Animation Movies
+  - Horror Movies
 
-### `npm test`
+- **Video Playback**
+  - YouTube trailer integration
+  - Modal video player
+  - Automatic trailer search based on title
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies Used
 
-### `npm run build`
+- **Frontend Framework**
+  - React.js
+  - React Hooks (useState, useEffect)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Styling**
+  - CSS3
+  - Tailwind CSS
+  - SCSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **API Integration**
+  - Axios for HTTP requests
+  - TMDB API for movie/show data
+  - YouTube API for trailers
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Additional Libraries**
+  - react-modal-video
+  - movie-trailer
 
-### `npm run eject`
+## 🚦 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/Shyam-Odedra/react-netflix-clone.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install dependencies
+```bash
+cd react-netflix-clone
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Create a `.env` file and add your TMDB API key
+```
+REACT_APP_TMDB_API_KEY=your_api_key_here
+```
 
-## Learn More
+4. Start the development server
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Environment Variables
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The following environment variables are required:
 
-### Code Splitting
+- `REACT_APP_TMDB_API_KEY`: Your TMDB API key
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📱 Responsive Design
 
-### Analyzing the Bundle Size
+- Mobile-first approach
+- Tailwind CSS breakpoints
+- Adaptive layout for different screen sizes
+- Custom responsive components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎨 Styling Features
 
-### Making a Progressive Web App
+- Custom CSS animations
+- Smooth transitions
+- Dynamic navbar background
+- Gradient overlays
+- Custom scrollbars
+- Modal styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
+This project is open source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🙏 Acknowledgments
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Netflix for design inspiration
+- TMDB for their extensive movie database
+- React community for amazing tools and libraries
