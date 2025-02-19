@@ -8,8 +8,13 @@ A modern Netflix clone built with React.js that replicates the core features and
 
 ### Home Page
 
+#### Banner
 ![Home Page](./screenshots/Home_Page_1.png)
+
+#### Trending Sections
 ![Home Page](./screenshots/Home_Page_2.png)
+
+#### Genre Wise Listing
 ![Home Page](./screenshots/Home_Page_3.png)
 
 ## 🚀 Features
